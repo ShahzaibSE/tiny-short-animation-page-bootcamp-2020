@@ -12,7 +12,7 @@ const Header = () => {
             <AppBar position="fixed">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                    Cosmos Technologies
+                        <span><strong>Cosmos Technologies</strong></span>
                     </Typography>
                 </Toolbar>
             </AppBar>

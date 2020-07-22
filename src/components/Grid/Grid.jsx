@@ -21,19 +21,19 @@ const GridComponent = () => {
                 <Header/>
             </Grid>
             <Grid item xs={12}>
-              <ScrollAnimation animateIn="fadeIn" duration={4}>  
+              <ScrollAnimation animateIn="fadeIn" duration={4} offset={30}> 
                 <Introduction />
               </ScrollAnimation>  
             </Grid>
             <Grid item xs={12}>
                 <Grid container spacing={1}>
                     <Grid item xs={7}>
-                      <ScrollAnimation animateIn="fadeIn" duration={4}>  
+                      <ScrollAnimation animateIn="fadeIn" duration={4} offset={30}>  
                         <About />
                       </ScrollAnimation>  
                     </Grid>
                     <Grid item xs={6}>
-                      <ScrollAnimation animateIn="fadeIn" duration={4}>  
+                      <ScrollAnimation animateIn="fadeIn" duration={4} offset={30}>  
                         <div className="about_image" ref={ref}>
                             <img style={{float:"right"}} src={about_image} alt="About" />
                         </div>
