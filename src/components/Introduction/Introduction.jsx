@@ -9,6 +9,7 @@ import 'react-animated-slider/build/horizontal.css';
 // Assets.
 import office_meeting_pic from "./../../images/office-illustration.jpg"
 import  "./Introduction.scss"
+// import "./introduction-slider-animation.scss"
 
 const slides = [
     { line1: 'Scale Extended', line2: 'business office', line3: 'services'},
