@@ -9,7 +9,7 @@ const Header = () => {
     const classes = useSyles()
     return (
         <div>
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
                     Cosmos Technologies
