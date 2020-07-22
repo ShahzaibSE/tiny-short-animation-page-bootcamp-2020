@@ -30,7 +30,7 @@ const Introduction = () => {
             </Grid>
             <Grid item xs={7}>
                <div className="slide_container"> 
-                <Slider autoplay={5} infinite={true} current="current">
+                <Slider autoplay={5} infinite={true} slideIndex={2}>
                 {slides.map((slide, index) => <div key={index}>
                     <h2 className="h2_container">
                         <div className="h2_text">

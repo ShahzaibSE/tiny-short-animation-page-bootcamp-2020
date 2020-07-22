@@ -7,7 +7,7 @@ const About = () => {
     const {ref} = useWebAnimations({...fadeIn, 
         timing:{duration: 4000}})
     return (
-        <div className="about_container">
+        <div className="about_container" ref={ref}>
             <h1 className="about_heading">We Are</h1>
             <p className="about_details">
             A highly specialized Management team with over 20 combined 
