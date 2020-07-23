@@ -8,6 +8,7 @@ import "animate.css/animate.min.css";
 import Header from "./../Header/Header"
 import Introduction from "./../Introduction/Introduction"
 import About from "./../About/About"
+import Benefits from "./../Benefits/Benefits"
 // Assets.
 import about_image from "./../../images/about-image.png"
 import "./Grid.scss"
@@ -40,6 +41,11 @@ const GridComponent = () => {
                        </ScrollAnimation>     
                     </Grid>
                 </Grid>
+            </Grid>
+            <Grid item xs={12}>
+              <ScrollAnimation animateIn="fadeIn" duration={4}>
+                <Benefits />
+              </ScrollAnimation>
             </Grid>
         </Grid>
     )
