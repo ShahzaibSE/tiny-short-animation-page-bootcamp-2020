@@ -7,7 +7,8 @@ import useWebAnimations, {fadeIn} from "@wellyshen/use-web-animations"
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 // Assets.
-import office_meeting_pic from "./../../images/office-illustration.jpg"
+// import office_meeting_pic from "./../../images/office-illustration.jpg"
+import office_meeting_pic from "./../../images/office-meeting.gif"
 import  "./Introduction.scss"
 // import "./introduction-slider-animation.scss"
 
