@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="btmFootr">
-                    <p style={{display:"inline"}}>All right reserved ©2020 zaparetechnologies.com</p>
+                    <p style={{display:"inline"}}>All right reserved ©2020 cosmostechnologies.com</p>
                     <p id="desgined_by">Designed by: <Link style={{textDecoration:"none", color:"rgba(255,255,255,.5)"}} href="https://www.linkedin.com/in/shahzaib-noor-0a1b71b4/" target="blank">
                         &nbsp; Shahzaib Noor</Link> 
                     </p>
