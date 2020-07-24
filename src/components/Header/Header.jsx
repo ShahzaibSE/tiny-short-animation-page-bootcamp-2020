@@ -2,6 +2,7 @@ import React from 'react'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import {Link} from "@material-ui/core"
 // Assets.
 import useSyles from "./Header.styles"
 import earth_cosmos_technologies from "./../../images/earth-cosmos-technologies.png"
@@ -16,6 +17,11 @@ const Header = () => {
                     <Typography variant="h6" className={classes.title}>
                         <span>Cosmos Technologies</span>
                     </Typography>
+                    <Link href="#" className={classes.menuButton}>Home</Link>
+                    <Link href="#" className={classes.menuButton}>About Us</Link>
+                    <Link href="#" className={classes.menuButton}>Services</Link>
+                    <Link href="#" className={classes.menuButton}>Career</Link>
+                    <Link href="#">Contact</Link>
                 </Toolbar>
             </AppBar>
         </div>
