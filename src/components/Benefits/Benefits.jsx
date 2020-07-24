@@ -7,6 +7,7 @@ import {AddCircle} from '@material-ui/icons'
 // Assets.
 import "./Benefits.scss"
 import overlay_image from "./../../images/overlay.png"
+import overlay_video from "./../../video/people-walking.mp4"
 
 const Benefits = () => {
 
@@ -33,7 +34,7 @@ const Benefits = () => {
                 </div>
           </Grid>
           <Grid item xs={3}>
-              <img src={overlay_image} alt="overlay" />
+            <img src={overlay_image} alt="overlay" />
           </Grid>
       </Grid>  
     )

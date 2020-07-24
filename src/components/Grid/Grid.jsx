@@ -18,7 +18,7 @@ const GridComponent = () => {
     const {ref} = useWebAnimations({...fadeIn, 
         timing:{duration: 4000}})
     return (
-        <Grid container>
+        <Grid container style={{overflowX:"hidden"}}>
             <Grid item xs={12}>  
                 <Header/>
             </Grid>

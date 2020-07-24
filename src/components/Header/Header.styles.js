@@ -9,7 +9,14 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
       flexGrow: 1,
+      color: "#003a78"
     },
+    app_bar_container: {
+      backgroundColor: "white"
+    },
+    cosmos_technologies_logo: {
+      paddingRight: 10
+    }
 }));
 
 export default useStyles
