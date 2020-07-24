@@ -17,11 +17,11 @@ const Header = () => {
                     <Typography variant="h6" className={classes.title}>
                         <span>Cosmos Technologies</span>
                     </Typography>
-                    <Link href="#" className={classes.menuButton}>Home</Link>
-                    <Link href="#" className={classes.menuButton}>About Us</Link>
-                    <Link href="#" className={classes.menuButton}>Services</Link>
-                    <Link href="#" className={classes.menuButton}>Career</Link>
-                    <Link href="#">Contact</Link>
+                    <Link href="#" className={classes.link} style={{textDecoration:"none"}}>Home</Link>
+                    <Link href="#" className={classes.link} style={{textDecoration:"none"}}>About Us</Link>
+                    <Link href="#" className={classes.link} style={{textDecoration:"none"}}>Services</Link>
+                    <Link href="#" className={classes.link} style={{textDecoration:"none"}}>Career</Link>
+                    <Link href="#" className={classes.link} style={{textDecoration:"none"}}>Contact</Link>
                 </Toolbar>
             </AppBar>
         </div>

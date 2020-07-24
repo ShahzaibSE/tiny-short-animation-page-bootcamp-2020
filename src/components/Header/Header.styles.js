@@ -4,8 +4,10 @@ const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
     },
-    menuButton: {
+    link: {
       marginRight: theme.spacing(2),
+      textDecoration: "none",
+      color:"#4b4b4b"
     },
     title: {
       flexGrow: 1,
