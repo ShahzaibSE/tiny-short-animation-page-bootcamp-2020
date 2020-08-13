@@ -2,6 +2,9 @@
  
 # tiny-short-animation-page-bootcamp-2020
 
+Welcome to an animated website of a technology startup. It has been developed using ReactJS view library.<br/>
+### [Demo](http://shahzaibnoor-tiny-short-animation-bootcamp-2020.surge.sh)
+
 <br/>
 
 ## Prerequisites.
